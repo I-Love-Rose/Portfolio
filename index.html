@@ -6,15 +6,15 @@
   <title>Professional Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gradient-to-b from-white to-gray-50 text-gray-900">
+<body class="bg-gradient-to-b from-gray-900 to-black text-gray-100">
   <!-- NAVBAR -->
-  <header class="sticky top-0 bg-white shadow">
+  <header class="sticky top-0 bg-gray-900 shadow-lg">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-      <h1 class="font-bold text-lg">Miguel Soriano</h1>
+      <h1 class="font-bold text-lg text-pink-400">Miguel Soriano</h1>
       <nav class="space-x-4">
-        <a href="#projects" class="hover:text-gray-700">Projects</a>
-        <a href="#about" class="hover:text-gray-700">About</a>
-        <a href="#contact" class="hover:text-gray-700">Contact</a>
+        <a href="#projects" class="hover:text-pink-400 transition">Projects</a>
+        <a href="#about" class="hover:text-pink-400 transition">About</a>
+        <a href="#work" class="hover:text-pink-400 transition">Featured Work</a>
       </nav>
     </div>
   </header>
@@ -22,106 +22,205 @@
   <!-- HERO -->
   <section class="max-w-6xl mx-auto px-4 py-14 grid lg:grid-cols-2 gap-10">
     <div>
-      <p class="text-sm inline-flex items-center border px-3 py-1 rounded-full border-gray-300">Available for work</p>
-      <h2 class="mt-4 text-3xl font-bold">Virtual Assistant & Product Lister</h2>
-      <p class="mt-3 text-gray-600">I help small shops launch faster with polished listings, crisp creatives, and clean workflows.</p>
+      <p class="text-xs inline-flex items-center border px-3 py-1 rounded-full border-pink-400 text-pink-300 shadow-sm">Available for work</p>
+      <h2 class="mt-4 text-3xl font-bold text-pink-400">Virtual Assistant & Product Lister</h2>
+      <p class="mt-3 text-gray-300">I help small shops launch faster with polished listings, crisp creatives, and clean workflows.</p>
       <div class="mt-6 space-x-3">
-        <a href="#contact" class="px-4 py-2 bg-blue-600 text-white rounded">Let's work together</a>
-        <a href="#projects" class="px-4 py-2 border rounded">See projects</a>
-        <a href="#" class="px-4 py-2 bg-gray-100 rounded">Download CV</a>
+        <a href="mailto:officialmiguel14@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Miguel,%0D%0AI%20saw%20your%20portfolio..."
+ class="px-4 py-2 bg-pink-500 hover:bg-pink-600 text-white rounded shadow-md transition">Let's work together</a>
+        <a href="#projects" class="px-4 py-2 border border-pink-400 text-pink-300 rounded hover:bg-pink-500 hover:text-white shadow-md transition">See projects</a>
+        <a href="resume.pdf" target="_blank" class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded shadow-md transition">View CV</a>
+      </div>
+      <div class="mt-8 space-x-3">
+        <a href="https://www.upwork.com/freelancers/~01b7916e6b5eb2cead?mp_source=share" target="_blank" class="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded shadow-md transition">Upwork Profile</a>
+        <a href="https://www.linkedin.com/in/miguelrosesoriano/" target="_blank" class="px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded shadow-md transition">LinkedIn Profile</a>
       </div>
     </div>
-    <div class="border rounded-2xl p-6 bg-white shadow">
-      <h3 class="font-semibold text-lg mb-2">About Me</h3>
-      <p class="text-gray-700 mb-4">I'm a results-driven VA with 1+ year of experience in Shopify product listing, ad creatives, and basic campaigns. I value clear communication and clean execution.</p>
+    <div class="border border-gray-700 rounded-2xl p-6 bg-gray-800 shadow-lg">
+      <h3 class="font-semibold text-lg mb-2 text-pink-300">About Me</h3>
+      <p class="text-gray-300 mb-4">I am a highly motivated Virtual Assistant with 1 year of experience in Shopify product listing, product research, and e-commerce content creation. I specialize in crafting SEO-friendly product descriptions, organizing inventory efficiently, and creating engaging product creatives and ad campaigns that drive traffic and sales. Detail-oriented, fast-learning, and results-driven, I help online stores maintain smooth operations while ensuring every product listing is optimized for maximum visibility and conversion.</p>
       <div class="grid grid-cols-2 gap-3 text-sm">
-        <div class="border rounded p-3">
-          <div class="text-gray-500">Location</div>
+        <div class="border border-gray-600 rounded p-3 bg-gray-900 shadow">
+          <div class="text-gray-400">Location</div>
           <div class="font-medium">Manila, PH</div>
         </div>
-        <div class="border rounded p-3">
-          <div class="text-gray-500">Contact</div>
-          <div class="font-medium">+63 900 000 0000</div>
+        <div class="border border-gray-600 rounded p-3 bg-gray-900 shadow">
+          <div class="text-gray-400">Email</div>
+          <div class="font-medium">officialmiguel14@gmail.com</div>
         </div>
       </div>
     </div>
   </section>
+<!-- SKILLS -->
+<section id="about" class="max-w-6xl mx-auto px-4 py-10">
+  <h2 class="text-2xl font-semibold text-pink-400">Core Skills</h2>
+  <p class="mt-2 text-gray-400">Focused, practical skills I use daily.</p>
+  <div class="mt-4 flex flex-wrap gap-2">
 
-  <!-- SKILLS -->
-  <section id="about" class="max-w-6xl mx-auto px-4 py-10">
-    <h2 class="text-2xl font-semibold">Core Skills</h2>
-    <p class="mt-2 text-gray-600">Focused, practical skills I use daily.</p>
-    <div class="mt-4 flex flex-wrap gap-2">
-      <span class="px-3 py-1 border rounded-full text-sm">Shopify Listing</span>
-      <span class="px-3 py-1 border rounded-full text-sm">Copywriting</span>
-      <span class="px-3 py-1 border rounded-full text-sm">Ad Creatives</span>
-      <span class="px-3 py-1 border rounded-full text-sm">English⇄German</span>
-      <span class="px-3 py-1 border rounded-full text-sm">English⇄French</span>
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        Shopify Listing
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Creating polished, optimized product listings.
+      </div>
     </div>
-  </section>
+
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        Copywriting
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Writing clear and persuasive product descriptions.
+      </div>
+    </div>
+
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        Ad Creatives
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Designing engaging ads that convert.
+      </div>
+    </div>
+
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        Creatives
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Visual content that attracts customers.
+      </div>
+    </div>
+
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        English⇄German
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Professional translation between English and German.
+      </div>
+    </div>
+
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        English⇄French
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Professional translation between English and French.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section id="about" class="max-w-6xl mx-auto px-4 py-10">
+  <h2 class="text-2xl font-semibold text-pink-400">Main Tools & Platform That I Use</h2>
+  <p class="mt-2 text-gray-400">Tools and platforms that I have mastery.</p>
+  <div class="mt-4 flex flex-wrap gap-2">
+
+    <!-- Example for tools -->
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        Shopify Admin Dashboard
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Managing products, orders, and storefront efficiently.
+      </div>
+    </div>
+
+    <div class="relative group">
+      <span class="px-3 py-1 border border-pink-400 rounded-full text-sm text-pink-300 shadow backdrop-blur-sm transition">
+        Canva / Photoshop
+      </span>
+      <div class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-pink-500 rounded opacity-0 group-hover:opacity-100 transition">
+        Designing eye-catching product images and creatives.
+      </div>
+    </div>
+
+    <!-- Repeat the same pattern for every tool -->
+    <!-- Just change the text inside the tooltip div -->
+
+  </div>
+</section>
 
   <!-- PROJECTS -->
   <section id="projects" class="max-w-6xl mx-auto px-4 py-10">
-    <h2 class="text-2xl font-semibold">Selected Projects</h2>
-    <p class="mt-2 text-gray-600">A few things I've worked on recently.</p>
+    <h2 class="text-2xl font-semibold text-pink-400">Selected Projects</h2>
+    <p class="mt-2 text-gray-400">A few things I've worked on recently.</p>
     <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-      <div class="border rounded-2xl p-5 bg-white shadow">
-        <h3 class="font-semibold">E‑Commerce Product Lister</h3>
-        <p class="text-gray-600 mt-2">Shopify listing workflow with SEO-ready titles, ad creatives, and A/B tested copy.</p>
+      <div class="border border-gray-700 rounded-2xl p-5 bg-gray-800 shadow-lg hover:shadow-pink-500/30 transition">
+        <h3 class="font-semibold text-pink-300">Product Listing in Shopify</h3>
+        <p class="text-gray-300 mt-2">Uploaded and optimized product listings with SEO-friendly titles, descriptions, tags, and collections to increase visibility and conversion rates. Managed product variants, pricing, and inventory to ensure a smooth shopping experience.</p>
       </div>
-      <div class="border rounded-2xl p-5 bg-white shadow">
-        <h3 class="font-semibold">Translation Pipeline</h3>
-        <p class="text-gray-600 mt-2">EN ⇄ DE/FR/DK product translation system with quality checks and glossary control.</p>
+      <div class="border border-gray-700 rounded-2xl p-5 bg-gray-800 shadow-lg hover:shadow-pink-500/30 transition">
+        <h3 class="font-semibold text-pink-300">Creatives for Products</h3>
+        <p class="text-gray-300 mt-2">Designed high-quality product creatives, banners, and promotional graphics using Canva and Pinterest, ensuring visually appealing content tailored to target audiences.</p>
       </div>
-      <div class="border rounded-2xl p-5 bg-white shadow">
-        <h3 class="font-semibold">Portfolio Website</h3>
-        <p class="text-gray-600 mt-2">Clean, fast, and responsive portfolio template using Tailwind.</p>
+      <div class="border border-gray-700 rounded-2xl p-5 bg-gray-800 shadow-lg hover:shadow-pink-500/30 transition">
+        <h3 class="font-semibold text-pink-300">Launching Ad Campaigns</h3>
+        <p class="text-gray-300 mt-2">Planned, set up, and launched ad campaigns on Facebook/Meta for Shopify stores. Created ad copies, selected audiences, and monitored campaign performance to boost product reach and sales.</p>
       </div>
     </div>
   </section>
 
   <!-- EXPERIENCE -->
   <section class="max-w-6xl mx-auto px-4 py-10">
-    <h2 class="text-2xl font-semibold">Experience</h2>
-    <div class="mt-6 border rounded-2xl p-5 bg-white shadow">
-      <h3 class="font-semibold">Shopify Product Lister • Freelance</h3>
-      <span class="text-sm text-gray-500">2024 — Present</span>
-      <ul class="list-disc ml-5 mt-2 text-gray-700 space-y-1">
-        <li>Created high-converting titles and descriptions with English→German/French/Danish translations.</li>
-        <li>Produced ad-ready product creatives and short-form copy variations for testing.</li>
-        <li>Improved workflow SOPs and organized assets for faster publishing.</li>
+    <h2 class="text-2xl font-semibold text-pink-400">Experience</h2>
+    <div class="mt-6 border border-gray-700 rounded-2xl p-5 bg-gray-800 shadow-lg">
+      <h3 class="font-semibold text-pink-300">Shopify Product Lister • Freelance</h3>
+      <span class="text-sm text-gray-400">2024 — Present</span>
+      <ul class="list-disc ml-5 mt-2 text-gray-300 space-y-1">
+        <li>Created high-converting product titles and SEO-optimized descriptions, including English → German/French/Danish translations to reach wider markets and improve international sales.</li>
+        <li>Produced ad-ready product creatives, banners, and copy variations for A/B testing to identify the best-performing content.</li>
+        <li>Researched winning products using platforms like AliExpress, Amazon, and TikTok Trends, ensuring every listing aligns with market demand.</li>
+        <li>Uploaded and organized products in Shopify backend, managing variants, tags, collections, and inventory to maintain a well-structured store.</li>
+        <li>Designed workflow SOPs and asset libraries for faster, more consistent publishing and easier collaboration.</li>
+        <li>Assisted in setting up ad campaigns on Facebook/Meta, creating targeted audiences and tracking performance metrics to optimize ROI.</li>
+        <li>Collaborated with store owners to improve store layout, enhance product presentation, and boost conversion rates.</li>
       </ul>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="max-w-6xl mx-auto px-4 py-10">
-    <h2 class="text-2xl font-semibold">Contact</h2>
-    <p class="mt-2 text-gray-600">Tell me about your project. I usually reply within 24 hours.</p>
-    <div class="mt-6 grid lg:grid-cols-3 gap-6">
-      <form class="lg:col-span-2 border rounded-2xl p-5 bg-white shadow grid gap-4">
-        <input type="text" placeholder="Your name" class="border rounded p-2" required>
-        <input type="email" placeholder="Email address" class="border rounded p-2" required>
-        <input type="text" placeholder="Subject" class="border rounded p-2">
-        <textarea placeholder="Project details" rows="6" class="border rounded p-2"></textarea>
-        <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Send</button>
-      </form>
-      <div class="border rounded-2xl p-5 bg-white shadow space-y-2 text-gray-700">
-        <div>Email: hello@example.com</div>
-        <div>Phone: +63 900 000 0000</div>
-        <div>Location: Manila, Philippines</div>
-      </div>
+  <!-- FEATURED WORK -->
+<section id="work" class="max-w-7xl mx-auto px-4 py-14">
+  <h2 class="text-3xl font-bold text-pink-400">Featured Work</h2>
+  <p class="mt-2 text-gray-400">Some of my creatives and Shopify product listings.</p>
+
+  <!-- Work Item -->
+  <div class="mt-8 rounded-2xl overflow-hidden shadow-lg relative group">
+    <!-- Image placeholder -->
+    <img src="ex1.png" alt="Project Preview" class="w-full h-[500px] object-cover">
+
+    <!-- Overlay with description -->
+    <div class="absolute inset-0 bg-white/80 backdrop-blur-sm opacity-10 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center text-center p-6">
+      <h3 class="text-white text-4xl font-semibold mt-4 inline-block px-5 py-2 bg-pink-500 text-white rounded-lg">Creatives</h3>
+      <p class="mt-2 text-pink max-w-x4 font-semibold mt-4 inline-block px-5 py-2 bg-pink-500 text-white rounded-lg">
+        Redesigned product background adding a clean and enhancing the quality to boost conversion.
+      </p>
+      <a href="https://www.canva.com/design/DAGvFqo1MA8/kkZol3jcSZPOcXRGhkTnbA/edit?utm_content=DAGvFqo1MA8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" 
+         class="mt-4 inline-block px-5 py-2 bg-pink-500 text-white rounded-lg">
+         View Project
+      </a>
     </div>
-  </section>
+        <div>
+          <!-- Caption below card -->
+<p class="mt-4 text-center text-gray-300 text-lg">
+  Due to client agreements and Shopify store confidentiality, some product listings cannot be displayed publicly.
+    </span>6
+</p>
+      </div>
+
+  </div>
+</section>
 
   <!-- FOOTER -->
-  <footer class="border-t mt-10">
+  <footer class="border-t border-gray-800 mt-10 bg-gray-900">
     <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-500 flex flex-col sm:flex-row justify-between">
       <p>© 2025 Your Name. All rights reserved.</p>
       <div class="space-x-4">
-        <a href="#" class="hover:text-gray-700">GitHub</a>
-        <a href="#" class="hover:text-gray-700">LinkedIn</a>
-        <a href="mailto:hello@example.com" class="hover:text-gray-700">Email</a>
+        <a href="https://github.com/I-Love-Rose" target="blank" class="hover:text-pink-400 transition">GitHub</a>
       </div>
     </div>
   </footer>
